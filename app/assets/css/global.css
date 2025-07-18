@@ -1,0 +1,41 @@
+:root {
+  --color-text-body: #c7bebe;
+  --color-text-header: #fff;
+  --color-text-link: #e5e5e5;
+  --color-bg-primary: #131418;
+  --color-accent-primary: #38d430;
+  --color-accent-secondary: #0f0;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--color-text-body);
+
+  background-color: var(--color-bg-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--color-text-header);
+}
+
+h1 {
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 1.618px;
+}
+
+.link {
+  font-size: 14px;
+  color: var(--color-text-link);
+  text-decoration: none;
+}

@@ -7,6 +7,11 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "eslint": "eslint .",
+    "eslint:fix": "eslint . --fix",
+    "stylelint": "stylelint \"**/*.{css,vue}\"",
+    "stylelint:ci": "stylelint --custom-formatter @csstools/stylelint-formatter-github \"**/*.{css,vue}\"",
+    "stylelint:fix": "stylelint \"**/*.{css,vue}\" --fix",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
@@ -16,8 +21,17 @@
     "@nuxt/icon": "^1.15.0",
     "@nuxt/image": "^1.10.0",
     "eslint": "^9.31.0",
+    "normalize.css": "^8.0.1",
     "nuxt": "^4.0.0",
     "vue": "^3.5.17",
     "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@csstools/stylelint-formatter-github": "^1.0.0",
+    "@iconify/json": "^2.2.359",
+    "stylelint": "^16.22.0",
+    "stylelint-config-clean-order": "^7.0.0",
+    "stylelint-config-recommended-vue": "^1.6.1",
+    "stylelint-config-standard": "^38.0.0"
   }
 }
