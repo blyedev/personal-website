@@ -25,6 +25,7 @@
   max-width: 64rem;
   min-height: calc(100vh - 18rem);
   margin: 8rem auto 10rem;
+  padding: 0 1.8rem;
 }
 
 aside {
